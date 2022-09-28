@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cyLLYs+LhSzLSPI5q+GhJTxI4CLQwQb2uB7HXWEWYBpxExP1frzh9NFF1Q0KFiskRBS5PPhhNduUIInnilkY8g==",
+  "dgSpecHash": "1CA62NDggMtviqe/ZJMcGNPDYGZq+LDNy2ciIG05SAAdgA2Mgo8xyjcmsax2qn6EMRTToN/APP9V/7CCaLvz3w==",
   "success": true,
   "projectFilePath": "C:\\Users\\joaom\\source\\net\\DevIoWebApi\\MinhaApiCompleta\\src\\DevIo.Api\\DevIo.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\joaom\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\joaom\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
-    "C:\\Users\\joaom\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\joaom\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
