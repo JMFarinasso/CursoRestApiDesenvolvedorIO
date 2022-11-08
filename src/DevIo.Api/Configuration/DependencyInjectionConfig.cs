@@ -17,7 +17,7 @@ namespace DevIo.Api.Configuration
             #region Repository
             services.AddScoped<IFornecedorRepository, FornecedorRepository>();
             services.AddScoped<IEnderecoRepository, EnderecoRepository>();
-            services.AddScoped<IProdutoService, ProdutoService>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
             #endregion
 
 

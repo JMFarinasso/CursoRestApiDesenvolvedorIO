@@ -18,7 +18,15 @@ builder.Services.AddDbContext<MeuDbContext>(options =>
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+builder.Services.AddApiConfig();
+
 builder.Services.ResolveDependencies();
+
+
+
+
+
+
 
 var app = builder.Build();
 
