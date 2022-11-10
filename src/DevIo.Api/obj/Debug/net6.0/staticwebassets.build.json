@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "fZauEIMTmvbHjtcH53JkhcHEZ5SarbHkdbZbLq9e03c=",
+  "Hash": "hT9gzv64X8BxVF8VFrD2eYQDfVAtSHIwJFS36pbpDlk=",
   "Source": "DevIo.Api",
   "BasePath": "_content/DevIo.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DevIo.Api\\wwwroot",
+      "Source": "DevIo.Api",
+      "ContentRoot": "C:\\Users\\joaom\\source\\net\\DevIoWebApi\\MinhaApiCompleta\\src\\DevIo.Api\\wwwroot\\",
+      "BasePath": "_content/DevIo.Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

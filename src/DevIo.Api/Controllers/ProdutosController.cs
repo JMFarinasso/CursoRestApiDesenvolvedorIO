@@ -49,7 +49,7 @@ namespace DevIo.Api.Controllers
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var imagemNome = Guid.NewGuid() + "_" + produtoViewModel.Imagem;
-            if(!UploadArquivo(produtoViewModel.ImagemUpload, imagemNome))
+            if (!UploadArquivo(produtoViewModel.ImagemUpload, imagemNome))
             {
                 return CustomResponse();
             }

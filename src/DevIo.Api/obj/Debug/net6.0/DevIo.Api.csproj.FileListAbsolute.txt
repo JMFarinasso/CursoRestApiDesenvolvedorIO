@@ -67,3 +67,4 @@ C:\Users\joaom\source\net\DevIoWebApi\MinhaApiCompleta\src\DevIo.Api\bin\Debug\n
 C:\Users\joaom\source\net\DevIoWebApi\MinhaApiCompleta\src\DevIo.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\joaom\source\net\DevIoWebApi\MinhaApiCompleta\src\DevIo.Api\bin\Debug\net6.0\Humanizer.dll
 C:\Users\joaom\source\net\DevIoWebApi\MinhaApiCompleta\src\DevIo.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\joaom\source\net\DevIoWebApi\MinhaApiCompleta\src\DevIo.Api\bin\Debug\net6.0\DevIo.Api.staticwebassets.runtime.json
