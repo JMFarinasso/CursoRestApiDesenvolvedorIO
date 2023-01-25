@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using DevIo.Api.Extensions;
+using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace DevIo.Api.ViewModels
 {

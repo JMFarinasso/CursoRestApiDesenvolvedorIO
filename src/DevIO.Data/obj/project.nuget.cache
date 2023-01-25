@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NbzkhiS2iriqmBpGb4w6I+3AS4UQB7Ygw9wCylSyozaEyq5snRn5uwidZF7WY+XA6XYbUWIY+g+gLP3w9VYG4A==",
+  "dgSpecHash": "6m1wKeFZ9hgMHZEohCvh4uAh/F0srQi/7BGGtmmza8m1YwS5Fp+5+mrZE7mG7OAClRCZSau9yZQPkGEiJ5M8fQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\joaom\\source\\net\\DevIoWebApi\\MinhaApiCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.10\\microsoft.entityframeworkcore.design.6.0.10.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.10\\microsoft.entityframeworkcore.relational.6.0.10.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.10\\microsoft.entityframeworkcore.sqlserver.6.0.10.nupkg.sha512",
+    "C:\\Users\\joaom\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.10\\microsoft.entityframeworkcore.tools.6.0.10.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
