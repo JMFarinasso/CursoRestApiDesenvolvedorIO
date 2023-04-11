@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Sempre lembrar de quando der problema de verificar aqui e a parte do AddApiConfig
 // Add services to the container.
 
 builder.Configuration
