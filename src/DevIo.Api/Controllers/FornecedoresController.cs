@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using DevIo.Api.Extensions;
 using DevIo.Api.ViewModels;
 using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
@@ -55,6 +56,7 @@ namespace DevIo.Api.Controllers
         }
 
         [HttpPost]
+        [ClaimsAuthorize("Fornecedor", "Adicionar")]
         public async Task<ActionResult<FornecedorViewModel>> Adicionar(FornecedorViewModel fornecedorViewModel)
         {
             if (!ModelState.IsValid) return CustomResponse(ModelState);
@@ -65,6 +67,7 @@ namespace DevIo.Api.Controllers
         }
 
         [HttpPut("{id:guid}")]
+        [ClaimsAuthorize("Fornecedor", "Atualizar")]
         public async Task<ActionResult<FornecedorViewModel>> Atualizar(Guid id, 
            FornecedorViewModel fornecedorViewModel)
         {
@@ -100,6 +103,7 @@ namespace DevIo.Api.Controllers
         }
 
         [HttpDelete("{id:guid}")]
+        [ClaimsAuthorize("Fornecedor", "Excluir")]
         public async Task<ActionResult<FornecedorViewModel>> Excluir(Guid id)
         {
             var fornecedorViewModel = await ObterFornecedorEndereco(id);

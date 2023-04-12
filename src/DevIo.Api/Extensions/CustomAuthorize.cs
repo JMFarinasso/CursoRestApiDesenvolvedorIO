@@ -13,11 +13,11 @@ namespace DevIo.Api.Extensions
         }
     }
 
-    public class ClaimsAuthorizeAtribute : TypeFilterAttribute
+    public class ClaimsAuthorizeAttribute : TypeFilterAttribute
     {
-        public ClaimsAuthorizeAtribute(string claimName, string claimValue) : base(typeof(RequisitoClaimFilter))
+        public ClaimsAuthorizeAttribute(string claimName, string claimValue) : base(typeof(RequisitoClaimFilter))
         {
-            Arguments = new object[] { claimName, claimValue }; 
+            Arguments = new object[] { new Claim(claimName, claimValue) }; 
         }
     }
 
